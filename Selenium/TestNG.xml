@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- VERBOSE IS LEVEL OF INFORMATION -->
+
+<suite name="suite1" verbose="2" parallel="methods" thread-count="2">
+
+
+<listeners>
+<listener class-name="testNG.ListenersCase"></listener>
+</listeners> 
+<test name="test1">
+<!--   -->
+<!-- <parameter name="Name" value="Lion"></parameter> -->
+<classes>
+
+<!-- <class name = "testNG.PriorityCase"></class>-->
+<class name = "testNG.SampleTestCase"></class>
+<!--<class name = "testNG.DependancyCase"></class>
+<class name = "testNG.GroupingCase"></class> 
+<class name = "testNG.SampleTestCase"></class>
+<class name = "testNG.ParallelTestingCase"></class> 
+<class name = "testNG.ParametrizationCase"></class> -->
+
+
+
+</classes>
+
+</test>
+
+
+</suite>
+
+<!-- 
+ <groups>
+
+<run>
+
+<incldue name="Apple"></include>
+<incldue name="Vivo"></include>
+<exclude name="Lenovo"></exclude>
+
+</run>
+</groups>
+            -->

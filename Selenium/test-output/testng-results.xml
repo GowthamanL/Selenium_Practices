@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="187" started-at="2023-04-06T13:04:48 IST" finished-at="2023-04-06T13:04:48 IST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="187" started-at="2023-04-06T13:04:48 IST" finished-at="2023-04-06T13:04:48 IST">
+      <class name="testNG.SampleTestCase">
+        <test-method status="PASS" signature="sampleCase()[pri:0, instance:testNG.SampleTestCase@8806ef]" name="sampleCase" duration-ms="17" started-at="2023-04-06T13:04:48 IST" finished-at="2023-04-06T13:04:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleCase -->
+      </class> <!-- testNG.SampleTestCase -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
